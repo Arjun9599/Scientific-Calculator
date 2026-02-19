@@ -116,7 +116,7 @@ class Calculator(tk.Tk):
             elif char == "tan": self.apply_func(math.tan) # type: ignore
             elif char == "log": self.apply_func(math.log10) # type: ignore
             elif char == "√": self.apply_func(math.sqrt) # type: ignore
-            elif char == "x²": self.apply_func(lambda x: x*x) # type: ignore
+            elif char == "x²": self.apply_func(lambda x: x*x) 
             elif char == "M+": self.memory += float(self.display.get())
             elif char == "M-": self.memory -= float(self.display.get())
             elif char == "MR": self.display_value(self.memory) # type: ignore
