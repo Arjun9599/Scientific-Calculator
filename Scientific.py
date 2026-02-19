@@ -112,7 +112,7 @@ class Calculator(tk.Tk):
                 self.expression = ""
                 self.display.delete(0, tk.END)
             elif char == "sin": self.apply_func(math.sin) # type: ignore
-            elif char == "cos": self.apply_func(math.cos) 
+            elif char == "cos": self.apply_func(math.cos) # type: ignore
             elif char == "tan": self.apply_func(math.tan) # type: ignore
             elif char == "log": self.apply_func(math.log10) # type: ignore
             elif char == "√": self.apply_func(math.sqrt) # type: ignore
