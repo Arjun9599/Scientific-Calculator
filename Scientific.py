@@ -136,4 +136,4 @@ class Calculator(tk.Tk):
         self.display.insert(tk.END, str(value)) # type: ignore
         self.expression = str(value) # type: ignore
 if __name__ == "__main__":
-    
+    Calculator().mainloop()
