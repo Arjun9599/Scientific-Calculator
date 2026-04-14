@@ -30,3 +30,8 @@ This project includes essential mathematical operations along with advanced scie
     Python 3
     Tkinter (GUI)
     Math module
+
+
+🤝 Contributing
+
+Feel free to fork this project and improve it!
