@@ -1,5 +1,5 @@
 # Scientific-Calculator
-![Scientific Calculator](Scientific-Calculator Imaje.jpg)
+![Scientific Calculator](Calculator Image/Calculator.jpg)
 
 🧮 Scientific Calculator (Python + Tkinter)
 
